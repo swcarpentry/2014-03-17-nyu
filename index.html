@@ -29,11 +29,27 @@ contact: admin@software-carpentry.org
 <div class="row-fluid">
   <div class="span6">
     {% include setup/overview-bash.html %}
+    Mac OS X already includes a bash shell in the Terminal application.
+    For Windows, we suggest you
+    <a href='http://msysgit.github.io/'>download and install msysGit</a>,
+    which includes both a bash shell (Git BASH) and git itself.
+
+    {% include setup/overview-git.html %}
+    You can follow the
+    <a href='https://help.github.com/articles/set-up-git'>git setup
+    instructions on GitHub</a>.
+
     {% include setup/overview-editor.html %}
+    <a href="http://www.sublimetext.com/">Sublime Text</a>
+    is a good editor that works on Windows, Mac OS X, and Linux.
   </div>
   <div class="span6">
-    {% include setup/overview-git.html %}
     {% include setup/overview-python.html %}
+    We suggest you
+    <a href='https://store.continuum.io/cshop/anaconda/'>download and install
+    Anaconda from Continuum Analytics</a>. When installing, choose the option
+    to make Anaconda your system's default version of Python.
+
     {% include setup/overview-r.html %}
   </div>
 </div>
