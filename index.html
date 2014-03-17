@@ -15,6 +15,8 @@ registration: open
 eventbrite: 10435144799
 instructor: ["Elena Glassman", "Matthew Lightman", "Michael Selik", "Sarah Supp", "Tracy Teal", "Alex Viana", "David Warde-Farley"]
 contact: admin@software-carpentry.org
+ipythonnotebook: http://nbviewer.ipython.org/urls
+raw: raw.github.com/swcarpentry/bc/gh-pages
 ---
 {% include bootcamps/instructors.html %}
 {% include bootcamps/what.html %}
@@ -85,13 +87,23 @@ contact: admin@software-carpentry.org
     </ul>
   </div>
   <div class="span6">
+    <h3><a href="lessons/swc-git/tutorial.html">Version Control With Git</a></h3>
+    <ul>
+      <li>A Better Backup</li>
+      <li>Branching</li>
+      <li>Merging</li>
+      <li>Collaborating</li>
+    </ul>
+  </div>
+  <div class="span6">
     <h3>Python</h3>
     <ul>
-	<li><a href="http://nbviewer.ipython.org/url/swcarpentry.github.io/2014-03-17-nyu/lessons/thw-python/vars-types/variables.ipynb">Variables and Types</a></li>
-	<li><a href="http://nbviewer.ipython.org/url/swcarpentry.github.io/2014-03-17-nyu/lessons/thw-python/data-structures/data_structures.ipynb">Data Structures</a></li>
-	<li><a href="http://nbviewer.ipython.org/url/swcarpentry.github.io/2014-03-17-nyu/lessons/thw-python/flow-control/python_flow_control.ipynb">Flow Control</a></li>
-	<li><a href="http://nbviewer.ipython.org/url/swcarpentry.github.io/2014-03-17-nyu/lessons/thw-python/strings-io/tutorial.ipynb">Strings and File I/O</a></li>
-	<li><a href="http://nbviewer.ipython.org/url/swcarpentry.github.io/2014-03-17-nyu/lessons/thw-python/functions-and-modules/python_functions_and_modules.ipynb">Functions and Modules</a></li>
+	<li><a href="{{page.ipythonnotebook}}/{{page.raw}}/lessons/thw-python/vars-types/variables.ipynb">Variables and Types</a></li>
+	<li><a href="{{page.ipythonnotebook}}/{{page.raw}}/lessons/thw-python/data-structures/data_structures.ipynb">Data Structures</a></li>
+	<li><a href="{{page.ipythonnotebook}}/{{page.raw}}/lessons/thw-python/flow-control/python_flow_control.ipynb">Flow Control</a></li>
+	<li><a href="{{page.ipythonnotebook}}/{{page.raw}}/lessons/thw-python/strings-io/tutorial.ipynb">Strings and File I/O</a></li>
+	<li><a href="{{page.ipythonnotebook}}/{{page.raw}}/lessons/thw-python/functions-and-modules/python_functions_and_modules.ipynb">Functions and Modules</a></li>
+	<li><a href="lessons/swc-setdict/tutorial.html">Sets and Dictionaries</a></li>
       </ul>
   </div>
   <div class="span6">
